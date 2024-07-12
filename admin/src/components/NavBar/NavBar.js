@@ -5,10 +5,12 @@ const NavBar = () => {
   return (
     <div className='navbar'>
         <img className='logo' src={assets.logo}></img>
+
        <div className='navbar-profile-text'>
             <img className='profile' src={assets.profile_image}></img>
-            <p>Admin Panel</p>
-       </div>
+            <p>Admin Panel</p>     
+        </div>  
+          <button onClick={()=>{window.location.replace('http://localhost:3000')}}>User Panel</button>
         
     </div>
   )
