@@ -13,7 +13,7 @@ const Navbar = ({setShowLogin}) => {
       navigate("/")
     }
     const changeUrl=()=>{
-     window.location.replace('http://localhost:3001/add')
+     window.location.replace('https://grubhub-admin.onrender.com')
     }
     return (
     <div className='navbar'>
