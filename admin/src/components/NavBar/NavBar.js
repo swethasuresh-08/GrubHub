@@ -10,7 +10,7 @@ const NavBar = () => {
             <img className='profile' src={assets.profile_image}></img>
             <p>Admin Panel</p>     
         </div>  
-          <button onClick={()=>{window.location.replace('http://localhost:3000')}}>User Panel</button>
+          <button onClick={()=>{window.location.replace('https://grubhub-frontend-n0rc.onrender.com')}}>User Panel</button>
         
     </div>
   )
