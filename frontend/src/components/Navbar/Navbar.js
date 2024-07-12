@@ -12,6 +12,9 @@ const Navbar = ({setShowLogin}) => {
       setToken("")
       navigate("/")
     }
+    const changeUrl=()=>{
+     window.location.replace('http://localhost:3001/add')
+    }
     return (
     <div className='navbar'>
       <Link to='/'><img className='logo' src={assets.logo} alt='Logo'/> </Link>
@@ -40,6 +43,7 @@ const Navbar = ({setShowLogin}) => {
               </ul>
           </div>
           }
+            <button onClick={changeUrl}>Admin Panel</button>
            </div>
     </div>
   )

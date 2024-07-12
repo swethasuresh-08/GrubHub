@@ -126,6 +126,14 @@
     gap:10px;
     cursor: pointer;
 }
+.navbar .navbar-profile-text .profile
+{
+padding-top: 10px; 
+padding-left: 20px;   
+width: 60px;
+height: 60px;
+
+}
 .navbar-profile-dropdown li:hover{
 color:tomato
 }
