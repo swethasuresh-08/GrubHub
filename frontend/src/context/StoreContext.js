@@ -8,7 +8,7 @@ const StoreProvider =(props)=>{
     
     const [cartItems,setCartItems]=useState({})
 
-    const url='http://localhost:5000'
+    const url="https://grubhub-backend-xb3x.onrender.com"
 
     const [token,setToken]=useState("")
 
